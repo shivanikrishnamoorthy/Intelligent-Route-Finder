@@ -1,0 +1,169 @@
+{
+  "name": "University Campus Map",
+  "directed": false,
+  "vertices": [
+    {
+      "name": "Main Gate",
+      "x": 10.0,
+      "y": 50.0,
+      "category": "Entrance",
+      "description": "Primary security gate and visitor entry"
+    },
+    {
+      "name": "Admin Block",
+      "x": 25.0,
+      "y": 50.0,
+      "category": "Administrative",
+      "description": "Registrar and dean's offices"
+    },
+    {
+      "name": "Central Library",
+      "x": 40.0,
+      "y": 65.0,
+      "category": "Academic",
+      "description": "Multi-floor research library"
+    },
+    {
+      "name": "Computer Science Dept",
+      "x": 55.0,
+      "y": 75.0,
+      "category": "Academic",
+      "description": "CS & AI labs, server rooms"
+    },
+    {
+      "name": "Electrical Dept",
+      "x": 60.0,
+      "y": 55.0,
+      "category": "Academic",
+      "description": "Electronics and IoT labs"
+    },
+    {
+      "name": "Mechanical Workshop",
+      "x": 75.0,
+      "y": 50.0,
+      "category": "Academic",
+      "description": "Heavy machinery and CAD labs"
+    },
+    {
+      "name": "Student Union & Cafe",
+      "x": 40.0,
+      "y": 35.0,
+      "category": "Amenities",
+      "description": "Dining hall and recreation center"
+    },
+    {
+      "name": "Sports Complex",
+      "x": 25.0,
+      "y": 20.0,
+      "category": "Sports",
+      "description": "Track, gymnasium and swimming pool"
+    },
+    {
+      "name": "Hostel Block A",
+      "x": 85.0,
+      "y": 80.0,
+      "category": "Residential",
+      "description": "Undergraduate dormitories"
+    },
+    {
+      "name": "Hostel Block B",
+      "x": 85.0,
+      "y": 25.0,
+      "category": "Residential",
+      "description": "Postgraduate dormitories"
+    },
+    {
+      "name": "Research Park",
+      "x": 70.0,
+      "y": 85.0,
+      "category": "Research",
+      "description": "Incubation center and sponsored research"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Main Gate",
+      "target": "Admin Block",
+      "weight": 150.0,
+      "road_name": "Main Palm Avenue"
+    },
+    {
+      "source": "Main Gate",
+      "target": "Sports Complex",
+      "weight": 280.0,
+      "road_name": "Perimeter Jogging Track"
+    },
+    {
+      "source": "Admin Block",
+      "target": "Central Library",
+      "weight": 180.0,
+      "road_name": "Scholar Walk"
+    },
+    {
+      "source": "Admin Block",
+      "target": "Student Union & Cafe",
+      "weight": 160.0,
+      "road_name": "South Promenade"
+    },
+    {
+      "source": "Central Library",
+      "target": "Computer Science Dept",
+      "weight": 200.0,
+      "road_name": "Turing Pathway"
+    },
+    {
+      "source": "Central Library",
+      "target": "Electrical Dept",
+      "weight": 170.0,
+      "road_name": "Faraday Walk"
+    },
+    {
+      "source": "Central Library",
+      "target": "Student Union & Cafe",
+      "weight": 140.0,
+      "road_name": "Central Quad"
+    },
+    {
+      "source": "Computer Science Dept",
+      "target": "Research Park",
+      "weight": 120.0,
+      "road_name": "Silicon Corridor"
+    },
+    {
+      "source": "Computer Science Dept",
+      "target": "Hostel Block A",
+      "weight": 240.0,
+      "road_name": "North Dorm Way"
+    },
+    {
+      "source": "Electrical Dept",
+      "target": "Mechanical Workshop",
+      "weight": 160.0,
+      "road_name": "Engineering Walk"
+    },
+    {
+      "source": "Mechanical Workshop",
+      "target": "Hostel Block B",
+      "weight": 210.0,
+      "road_name": "South Dorm Way"
+    },
+    {
+      "source": "Student Union & Cafe",
+      "target": "Sports Complex",
+      "weight": 190.0,
+      "road_name": "Athletics Lane"
+    },
+    {
+      "source": "Student Union & Cafe",
+      "target": "Hostel Block B",
+      "weight": 260.0,
+      "road_name": "East Quad Path"
+    },
+    {
+      "source": "Hostel Block A",
+      "target": "Research Park",
+      "weight": 190.0,
+      "road_name": "Innovators Lane"
+    }
+  ]
+}

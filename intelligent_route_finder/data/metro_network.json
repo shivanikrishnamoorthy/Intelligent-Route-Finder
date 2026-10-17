@@ -1,0 +1,244 @@
+{
+  "name": "Metro Transit Network (Smart City)",
+  "directed": false,
+  "vertices": [
+    {
+      "name": "Central Station",
+      "x": 50.0,
+      "y": 50.0,
+      "category": "Terminal",
+      "description": "Central transit interchange hub"
+    },
+    {
+      "name": "Tech Park",
+      "x": 80.0,
+      "y": 75.0,
+      "category": "Commercial",
+      "description": "IT corridor and tech enterprise zone"
+    },
+    {
+      "name": "Financial District",
+      "x": 70.0,
+      "y": 30.0,
+      "category": "Commercial",
+      "description": "Banking & trade headquarters"
+    },
+    {
+      "name": "Airport Terminal",
+      "x": 95.0,
+      "y": 90.0,
+      "category": "Airport",
+      "description": "International flight terminal"
+    },
+    {
+      "name": "University Square",
+      "x": 25.0,
+      "y": 65.0,
+      "category": "Education",
+      "description": "Main academic zone & student center"
+    },
+    {
+      "name": "Waterfront Pier",
+      "x": 15.0,
+      "y": 35.0,
+      "category": "Recreation",
+      "description": "Coastal ferry & leisure boulevard"
+    },
+    {
+      "name": "North Gate",
+      "x": 50.0,
+      "y": 85.0,
+      "category": "Suburban",
+      "description": "Northern arterial gateway"
+    },
+    {
+      "name": "South End",
+      "x": 45.0,
+      "y": 15.0,
+      "category": "Residential",
+      "description": "Southern residential sector"
+    },
+    {
+      "name": "West Ridge",
+      "x": 10.0,
+      "y": 80.0,
+      "category": "Suburban",
+      "description": "Western residential hill district"
+    },
+    {
+      "name": "East Bay",
+      "x": 90.0,
+      "y": 45.0,
+      "category": "Industrial",
+      "description": "Cargo port & logistics depot"
+    },
+    {
+      "name": "Innovation Valley",
+      "x": 75.0,
+      "y": 60.0,
+      "category": "Tech Hub",
+      "description": "Research labs & startup incubators"
+    },
+    {
+      "name": "Midtown Junction",
+      "x": 40.0,
+      "y": 40.0,
+      "category": "Interchange",
+      "description": "Cross-city tram connector"
+    },
+    {
+      "name": "Cultural Plaza",
+      "x": 30.0,
+      "y": 45.0,
+      "category": "Civic",
+      "description": "Theaters, museums & historic center"
+    },
+    {
+      "name": "Medical Center",
+      "x": 60.0,
+      "y": 65.0,
+      "category": "Healthcare",
+      "description": "Specialty hospital & trauma hub"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Central Station",
+      "target": "Tech Park",
+      "weight": 6.5,
+      "road_name": "Metro Line 1 (Blue)"
+    },
+    {
+      "source": "Central Station",
+      "target": "Financial District",
+      "weight": 4.2,
+      "road_name": "Metro Line 2 (Red)"
+    },
+    {
+      "source": "Central Station",
+      "target": "Midtown Junction",
+      "weight": 3.0,
+      "road_name": "Metro Line 3 (Yellow)"
+    },
+    {
+      "source": "Central Station",
+      "target": "North Gate",
+      "weight": 5.8,
+      "road_name": "Metro Line 1 (Blue)"
+    },
+    {
+      "source": "Central Station",
+      "target": "Medical Center",
+      "weight": 3.5,
+      "road_name": "Central Loop"
+    },
+    {
+      "source": "Tech Park",
+      "target": "Airport Terminal",
+      "weight": 4.8,
+      "road_name": "Airport Express"
+    },
+    {
+      "source": "Tech Park",
+      "target": "Innovation Valley",
+      "weight": 2.4,
+      "road_name": "Silicon Avenue"
+    },
+    {
+      "source": "Tech Park",
+      "target": "North Gate",
+      "weight": 5.1,
+      "road_name": "Ring Expressway"
+    },
+    {
+      "source": "Financial District",
+      "target": "East Bay",
+      "weight": 3.9,
+      "road_name": "Harbor Way"
+    },
+    {
+      "source": "Financial District",
+      "target": "South End",
+      "weight": 4.6,
+      "road_name": "Metro Line 2 (Red)"
+    },
+    {
+      "source": "Financial District",
+      "target": "Midtown Junction",
+      "weight": 3.8,
+      "road_name": "Commerce Blvd"
+    },
+    {
+      "source": "Airport Terminal",
+      "target": "East Bay",
+      "weight": 8.2,
+      "road_name": "Outer Orbital"
+    },
+    {
+      "source": "University Square",
+      "target": "West Ridge",
+      "weight": 3.7,
+      "road_name": "College Hill Rd"
+    },
+    {
+      "source": "University Square",
+      "target": "North Gate",
+      "weight": 6.0,
+      "road_name": "Northern Connector"
+    },
+    {
+      "source": "University Square",
+      "target": "Cultural Plaza",
+      "weight": 3.2,
+      "road_name": "Arts Parkway"
+    },
+    {
+      "source": "Waterfront Pier",
+      "target": "Cultural Plaza",
+      "weight": 2.8,
+      "road_name": "Bayview Drive"
+    },
+    {
+      "source": "Waterfront Pier",
+      "target": "Midtown Junction",
+      "weight": 4.5,
+      "road_name": "Old Town Tramway"
+    },
+    {
+      "source": "Waterfront Pier",
+      "target": "South End",
+      "weight": 5.2,
+      "road_name": "Coastal Highway"
+    },
+    {
+      "source": "North Gate",
+      "target": "Medical Center",
+      "weight": 4.3,
+      "road_name": "Health Expressway"
+    },
+    {
+      "source": "South End",
+      "target": "Midtown Junction",
+      "weight": 4.0,
+      "road_name": "Greenbelt Way"
+    },
+    {
+      "source": "East Bay",
+      "target": "Innovation Valley",
+      "weight": 5.5,
+      "road_name": "Freight Corridor"
+    },
+    {
+      "source": "Innovation Valley",
+      "target": "Medical Center",
+      "weight": 2.2,
+      "road_name": "Healthcare Lane"
+    },
+    {
+      "source": "Midtown Junction",
+      "target": "Cultural Plaza",
+      "weight": 2.0,
+      "road_name": "Civic Avenue"
+    }
+  ]
+}
